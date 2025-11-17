@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: rgb(11, 22, 71);
+  color: rgb(243, 238, 238);
+  text-align: center;
+}
+.App {
+  padding: 40px;
+}
+.note h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: rgb(157, 166, 209);
+}
+.note p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: rgb(142, 151, 192);
+}
+.first {
+  margin-bottom: 30px;
+}
+.Display {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(238, 233, 233);
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 105px;
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  width: 220px;
+  height: 250px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: rgb(230, 240, 255);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.card-name {
+  font-size: 20px;
+  color: rgb(60, 60, 60);
+  font-weight: bold;
+}
