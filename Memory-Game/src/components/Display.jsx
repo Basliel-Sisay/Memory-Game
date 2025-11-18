@@ -2,8 +2,8 @@ export default function Display(props){
     return (
         <header id="header">
             <h1>Memory Game</h1>
-            <p>Score: {props.score}</p>
-            <p>Best Score:{props.bestScore}</p>
+            <p><strong>Score : {props.score}</strong></p>
+            <p><strong>Best Score : {props.bestScore}</strong></p>
         </header>
     )
 }
