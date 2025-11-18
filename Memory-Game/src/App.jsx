@@ -58,6 +58,8 @@ return(
   <div className='App'>
   <div className='first'>
    <div className="note">
+   <img
+    src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon Logo" style={{ width: "200px", height: "auto", marginBottom: "10px" }} />
      <h1>Pokemon Game</h1>
      <p><strong>Play the pokemon memory Game </strong></p>
    </div>
