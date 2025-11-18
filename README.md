@@ -13,7 +13,7 @@ A classic and interactive Memory Card Matching Game built with pure HTML, CSS, a
 
 <h2>🚀 Live Demo</h2>
 
-🎯 Click here to play the game! <!-- Replace with your actual deployment link -->
+🎯 Click here to play the game! https://the-pokemon-memory-game.netlify.app/
 
 <h2>🛠️ Technologies Used</h2>
 
